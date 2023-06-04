@@ -1,13 +1,11 @@
 import React from "react";
 import styles from "./styles.module.css";
 import MargenComponent from "../../common/MargenComponent/MargenComponent";
-import { NavHashLink as NavLink } from "react-router-hash-link";
-import { useLocation } from "react-router-dom";
-
+import { useLocation, NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 const DesktopNavbar = () => {
   const location = useLocation();
   let currentSection = location.hash;
-
   return (
     <section className={styles.desktopNavbar}>
       <MargenComponent>
@@ -16,7 +14,6 @@ const DesktopNavbar = () => {
           <div className={styles.navMenuSection}>
             <NavLink
               to={"/#quienesSomos"}
-              smooth
               className={
                 currentSection === "#quienesSomos" ? styles.activeLink : ""
               }
@@ -25,7 +22,6 @@ const DesktopNavbar = () => {
             </NavLink>
             <NavLink
               to={"/#queHacemos"}
-              smooth
               className={
                 currentSection === "#queHacemos" ? styles.activeLink : ""
               }
@@ -34,7 +30,6 @@ const DesktopNavbar = () => {
             </NavLink>
             <NavLink
               to={"/#metodologia"}
-              smooth
               className={
                 currentSection === "#metodologia" ? styles.activeLink : ""
               }
@@ -43,7 +38,6 @@ const DesktopNavbar = () => {
             </NavLink>
             <NavLink
               to={"/#proyectos"}
-              smooth
               className={
                 currentSection === "#proyectos" ? styles.activeLink : ""
               }
@@ -60,7 +54,6 @@ const DesktopNavbar = () => {
             </NavLink>
             <NavLink
               to={"/#contacto"}
-              smooth
               className={
                 currentSection === "#contacto" ? styles.activeLink : ""
               }

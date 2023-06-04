@@ -2,10 +2,10 @@ import React from "react";
 import MargenComponent from "../../common/MargenComponent/MargenComponent.jsx";
 import { MdMenu } from "react-icons/md";
 import { CgClose } from "react-icons/cg";
-import { NavHashLink as NavLink } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
-import { useLocation } from "react-router-dom";
+import { useLocation, NavLink } from "react-router-dom";
 import styles from "./styles.module.css";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const MobileNavbar = () => {
   const location = useLocation();
@@ -26,35 +26,35 @@ const MobileNavbar = () => {
         <div className={styles.navMenuSection}>
           <NavLink
             to={"/#quienesSomos"}
-            smooth
             className={
               currentSection === "#quienesSomos" ? styles.activeLink : ""
             }
+            onClick={changeMenu}
           >
             ¿Quiénes somos?
           </NavLink>
           <NavLink
             to={"/#queHacemos"}
-            smooth
             className={
               currentSection === "#queHacemos" ? styles.activeLink : ""
             }
+            onClick={changeMenu}
           >
             ¿Qué hacemos?
           </NavLink>
           <NavLink
             to={"/#metodologia"}
-            smooth
             className={
               currentSection === "#metodologia" ? styles.activeLink : ""
             }
+            onClick={changeMenu}
           >
             Metodología
           </NavLink>
           <NavLink
             to={"/#proyectos"}
-            smooth
             className={currentSection === "#proyectos" ? styles.activeLink : ""}
+            onClick={changeMenu}
           >
             Proyectos
           </NavLink>
@@ -63,19 +63,19 @@ const MobileNavbar = () => {
             className={
               location.pathname === "/articulos" ? styles.activeLink : ""
             }
+            onClick={changeMenu}
           >
             Artículos
           </NavLink>
           <NavLink
             to={"/#contacto"}
-            smooth
             className={currentSection === "#contacto" ? styles.activeLink : ""}
+            onClick={changeMenu}
           >
             Contacto
           </NavLink>
         </div>
         <div className={styles.imageNavbar}>
-          {" "}
           <img src="/images/LOGO-MOBILE.png" alt="logoMindset" />
         </div>
       </nav>
