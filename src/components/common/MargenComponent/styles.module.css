@@ -12,3 +12,10 @@
   width: 87%;
   height: 100%;
 }
+
+
+@media all and (min-width:1000px){
+  .margenContainer{
+    width: 91.7%;
+  }
+}

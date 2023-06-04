@@ -1,0 +1,12 @@
+.contenedorGeneral {
+  max-width: 100vw;
+}
+.sectionsContainer {
+  margin-top: 10vh;
+  position: relative;
+}
+
+.generalFooter {
+  position: relative;
+  z-index: 1;
+}
