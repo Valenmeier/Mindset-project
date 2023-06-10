@@ -1,0 +1,23 @@
+.indexSection {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("/images/heroImage.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.indexSection h2{
+    color: var(--letterColor);
+    font-family: "mindsetTitle";
+    font-size: 15vw;
+    line-height: 20vw;
+    font-weight: 500;
+}
+@media all and (min-width:1000px){
+    .indexSection h2{
+        font-size: 4.2vw;
+    }
+}

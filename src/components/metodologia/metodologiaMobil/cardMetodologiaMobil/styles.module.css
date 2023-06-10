@@ -1,0 +1,72 @@
+.cardMobilContainer {
+  width: 100vw;
+  height: calc(100% / 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardMobilContainer p {
+  width: 70vw;
+  height: 60%;
+  text-align: center;
+  border: 0.5vw dashed #f11b1c;
+  border-radius: 2vw;
+  font-family: "mindsetText";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  padding: 2vw;
+}
+
+.cardMobilContainer:first-child {
+  display: flex;
+  max-width: 87%;
+  justify-content: flex-end;
+  position: relative;
+ 
+  height: 28vh;
+}
+.cardMobilContainer:first-child span {
+  top: 0;
+  left: 0;
+  font-size: 12vw;
+  font-family: "mindsetTitle";
+}
+.cardMobilContainer:nth-child(2) {
+  display: flex;
+  max-width: 87%;
+  justify-content: flex-start;
+  position: relative;
+  height: 28vh;
+}
+.cardMobilContainer:nth-child(2) span {
+  top: 0;
+  right: 0;
+  font-size: 12vw;
+  font-family: "mindsetTitle";
+}
+.cardMobilContainer:nth-child(3) {
+  display: flex;
+  max-width: 87%;
+  justify-content: flex-end;
+  position: relative;
+  height: 28vh;
+}
+.cardMobilContainer:nth-child(3) span {
+  top: 0;
+  left: 0;
+  font-size: 12vw;
+  font-family: "mindsetTitle";
+}
+@media all and (min-width:500px){
+    .cardMobilContainer:first-child {
+        height: 42vh;
+    }
+    .cardMobilContainer:nth-child(2) {
+        height: 42vh;
+    }
+    .cardMobilContainer:nth-child(3) {
+        height: 42vh;
+    }
+}

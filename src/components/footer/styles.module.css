@@ -1,0 +1,46 @@
+.footerContainer {
+  height: 30vh;
+  width: 100vw;
+  background-color: #f11b1c;
+  margin-top: 4vw;
+  display: flex;
+  flex-direction: column;
+  color: var(--letterColor);
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.footerContainer h3 {
+  font-family: "mindsetText";
+  font-size: 7vw;
+  text-align: center;
+  
+}
+.redesSociales {
+  width: 100%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 8vh 8vh;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+.redesSociales a {
+  margin-left: 2vw;
+  text-decoration: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  justify-content: start;
+  gap: 2vw;
+  width: 100%;
+  height: 100%;
+  color: var(--letterColor);
+  font-size: 5vw;
+  font-family: "mindsetText";
+}
+.redesSociales svg{
+    font-size: 6vw;
+}

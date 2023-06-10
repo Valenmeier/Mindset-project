@@ -1,0 +1,70 @@
+.metodologiaDesktop {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 1.5vw;
+  align-items:center;
+  position: relative;
+  flex-direction: column;
+}
+.parteSuperior {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 10vh;
+  gap: 0.5vw;
+}
+.parteInferior {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  height: 35vh;
+}
+.parteSuperior span:first-child {
+  width: 30%;
+  align-self: flex-end;
+  height: 50%;
+  border-radius: 1vw 0;
+  border: 0.15vw dashed #f11b1c;
+  border-bottom: none;
+  border-right: none;
+}
+.parteSuperior span:last-child {
+  width: 30%;
+  align-self: flex-end;
+  height: 50%;
+  border: 0.15vw dashed #f11b1c;
+  border-radius: 0 1vw;
+  border-bottom: none;
+  border-left: none;
+}
+.parteInferior div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 95%;
+  width: 30vw;
+  gap: 1vw;
+}
+.parteInferior div p {
+  font-family: "mindsetText";
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: 300;
+ 
+  padding:2vw 1.5vw 2vw 1.5vw;
+  border-radius: 2vw;
+  border: 0.15vw dashed #f11b1c;
+}
+
+@media all and (max-width: 1000px) {
+  .metodologiaDesktop {
+    display: none;
+  }
+}

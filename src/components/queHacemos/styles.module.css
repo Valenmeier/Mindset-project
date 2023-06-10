@@ -1,0 +1,42 @@
+.containSection {
+  min-height: 70vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.containSection h3 {
+  font-family: "mindsetText";
+  font-size: 5vw;
+  margin-top: 2vw;
+}
+.imagenLayout{
+  width: 100vw;
+  height: 30vh;
+  position: relative;
+  overflow: hidden;
+}
+.imagenLayout img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+@media all and (min-width: 500px) {
+  .containSection h3 {
+    font-size: 4vw;
+    margin: 1vw 0 1vw 0;
+    margin-bottom: 2vw;
+    padding-bottom: 2vw;
+  }
+}
+@media all and (min-width: 1000px) {
+  .containSection h3 {
+    font-size: 2.5vw;
+    margin: 1vw 0 1vw 0;
+    padding-bottom: 0vw;
+  }
+  .imagenLayout{
+    height: 40vh;
+  }
+}

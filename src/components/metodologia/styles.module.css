@@ -1,0 +1,19 @@
+.metodologia{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.metodologia img {
+  width: 100vw;
+  height: 30vh;
+  object-fit: cover;
+}
+
+@media all and (min-width: 1000px) {
+  .metodologia img {
+    width: 100vw;
+    height: 35vh;
+  }
+}

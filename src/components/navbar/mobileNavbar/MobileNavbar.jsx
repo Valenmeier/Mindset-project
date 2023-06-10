@@ -5,7 +5,7 @@ import { CgClose } from "react-icons/cg";
 import { useLocation, NavLink } from "react-router-dom";
 import styles from "./styles.module.css";
 import { useState } from "react";
-import { Link } from "react-scroll";
+
 
 const MobileNavbar = () => {
   const location = useLocation();
@@ -81,11 +81,13 @@ const MobileNavbar = () => {
       </nav>
       <MargenComponent>
         <div className={styles.navComponents}>
-          <img
-            src="/images/LOGO-MOBILE.png"
-            className={openMenu ? styles.desaparecer : ""}
-            alt="logoMindset"
-          />
+          <NavLink to={"/#inicio"}>
+            <img
+              src="/images/LOGO-MOBILE.png"
+              className={openMenu ? styles.desaparecer : ""}
+              alt="logoMindset"
+            />
+          </NavLink>
           <MdMenu
             className={openMenu ? styles.desaparecer : ""}
             onClick={changeMenu}

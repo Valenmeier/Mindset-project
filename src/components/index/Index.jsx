@@ -1,10 +1,20 @@
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import styles from "./styles.module.css";
+import { Inicio } from "../inicio/inicio";
+import QuienesSomos from "../quienesSomos/QuienesSomos";
+import QueHacemos from "../queHacemos/QueHacemos";
+import Metodologia from "../metodologia/Metodologia";
+import Proyects from "../proyects/Proyects";
+import { Contacto } from "../contactos/Contacto";
 
 const Index = () => {
   const location = useLocation();
   const [ready, setReady] = useState(false);
+
+  const isMobileView = () => {
+    return window.innerWidth <= 1000; 
+  };
 
   useEffect(() => {
     if (location.pathname === "/") {
@@ -21,20 +31,24 @@ const Index = () => {
     if (elementId && ready) {
       let section = document.getElementById(elementId);
       if (section) {
-        setTimeout(() => {
-          section.scrollIntoView({ behavior: "smooth" });
-        }, 0);
+        // Ajusta el offset dependiendo de si es vista móvil o de escritorio
+        const yOffset = isMobileView() ? -65 : -100;
+        const y =
+          section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+        window.scrollTo({ top: y, behavior: "smooth" });
       }
     }
   }, [location, ready]);
 
   return (
     <section className={styles.contenedorIndex}>
-      <div id="quienesSomos">¿Quiénes somos?</div>
-      <div id="queHacemos">¿Qué hacemos?</div>
-      <div id="metodologia">Metodología</div>
-      <div id="proyectos">Proyectos</div>
-      <div id="contacto">Contacto</div>
+      <Inicio />
+      <QuienesSomos />
+      <QueHacemos />
+      <Metodologia />
+      <Proyects />
+      <Contacto />
     </section>
   );
 };

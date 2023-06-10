@@ -1,0 +1,48 @@
+.titleSection {
+  width: 100vw;
+  height: 20vh;
+  background-color: var(--bgSectionColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.textSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+  gap: 3vh;
+}
+.textSection h3 {
+  font-size: 7.5vw;
+  font-family: "mindsetTitle";
+  color: var(--letterColor);
+  font-weight: 500;
+  margin: 0;
+}
+.textSection p {
+  font-size: 3.5vw;
+  font-family: "mindsetText";
+  color: var(--letterColor);
+  margin: 0;
+  font-weight: 300;
+  letter-spacing: .2vw;
+}
+
+@media all and (min-width:1000px){
+    .textSection{
+        gap: 2vh;
+    }
+    .textSection h3 {
+        font-size: 3vw;
+    }
+    .textSection p{
+        font-size: 1.2vw;
+        letter-spacing: .05vw;
+    }
+}

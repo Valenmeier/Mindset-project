@@ -1,0 +1,17 @@
+.sectionContainer{
+    position: relative;
+    min-height: 70vh;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2vh;
+  
+}
+@media all and (min-width:1000px){
+    .sectionContainer{
+        display: none;
+    }
+}

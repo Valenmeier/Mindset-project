@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import Navbar from "../../components/navbar/Navbar";
 import { Outlet } from "react-router-dom";
+import Footer from "../../components/footer/Footer";
 
 const GeneralLayout = () => {
   return (
@@ -11,7 +12,7 @@ const GeneralLayout = () => {
         <Outlet />
       </main>
 
-      <footer className={styles.generalFooter}>Footer</footer>
+      <Footer/>
     </section>
   );
 };

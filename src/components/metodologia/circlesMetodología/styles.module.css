@@ -1,0 +1,24 @@
+.circles {
+  width: 17vw;
+  height: 17vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(241, 27, 28, 0.65) 0%, #f11b1c 100%);
+  color: var(--letterColor);
+  font-size: 10vw;
+  font-family: "mindsetTitle";
+}
+
+@media all and (min-width:1000px){
+    .circles{
+        width: 6vw;
+        height: 6vw;
+        font-size: 4vw;
+        position: relative;
+        font-family: "mindsetTitle";
+    }
+}

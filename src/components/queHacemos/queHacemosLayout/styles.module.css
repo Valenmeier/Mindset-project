@@ -1,0 +1,274 @@
+.layoutContainer {
+  min-height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 6vw;
+}
+.sectionContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 30vh;
+}
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.iconContainer img {
+  width: 25vw;
+}
+.iconContainer h3 {
+  font-size: 8vw;
+  text-align: center;
+  font-size: "mindsetTitle";
+  margin: 0;
+}
+.cardContainer {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+.textContainer {
+  background-color: rgba(58, 58, 58, 0.2);
+  width: 60vw;
+  height: 45vw;
+  border-radius: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textContainer p {
+  font-size: 3.5vw;
+  font-family: "mindsetText";
+  padding: 5vw 2vw 5vw 2vw;
+  margin: 0;
+  text-align: center;
+}
+.plusMinus {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-right: 10vw;
+  gap: 2vw;
+}
+.plusMinus svg {
+  font-size: 4.5vw;
+  font-weight: 100;
+}
+.plusMinus h2 {
+  font-family: "mindsetText";
+  font-size: 5.5vw;
+  font-weight: 400;
+  margin: 0;
+}
+.sectionHidden {
+  height: 0vh;
+  opacity: 0;
+  transition: all 1s linear;
+  overflow: hidden;
+  gap: 4vw;
+  margin-bottom: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4vw;
+}
+.sectionHidden h3 {
+  font-size: 4.5vw;
+  font-family: "mindsetTitle";
+  font-weight: 500;
+}
+.sectionHidden h5 {
+  font-size: 3.5vw;
+  font-family: "mindsetText";
+}
+.sectionVisible {
+  height: 33vh;
+  margin-bottom: 1vh;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4vw;
+}
+.sectionVisible h3 {
+  font-size: 4.5vw;
+  font-family: "mindsetTitle";
+  font-weight: 500;
+}
+.sectionVisible h5 {
+  font-size: 3.5vw;
+  font-family: "mindsetText";
+}
+.oneTwoThreeSection {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  align-items: center;
+  text-align: center;
+}
+.oneTwoThreeSection div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 15vh;
+  gap: 3vw;
+}
+.oneTwoThreeSection div p {
+  height: 50%;
+  font-family: "mindsetText";
+  font-size: 3.5vw;
+}
+.oneTwoThreeSection span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(241, 27, 28, 0.65) 0%, #f11b1c 100%);
+  color: var(--letterColor);
+  font-family: "mindsetText";
+  font-size: 5vw;
+}
+@media all and (min-width:500px){
+  .layoutContainer {
+    margin-bottom: 15vw;
+  }
+  .sectionVisible{
+    margin-top: 4vh;
+    height: 43vh;
+  }
+  .oneTwoThreeSection span{
+    width: 7vw;
+    font-size: 4vw
+  }
+}
+@media all and (min-width:769px){
+  .layoutContainer {
+    margin-bottom: 15vw;
+  }
+  .sectionVisible{
+    margin-top: 4vh;
+    height: 43vh;
+  }
+  .oneTwoThreeSection span{
+    width: 8vw;
+    font-size: 4vw
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .layoutContainer {
+    margin-bottom: 0.5vw;
+  }
+  .sectionContainer {
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+  }
+  .iconContainer{
+    width: 30vw;
+  }
+  .iconContainer img {
+    width: 8vw;
+  }
+  .iconContainer h3 {
+    font-size: 2.5vw;
+    text-align: center;
+    font-size: "mindsetTitle";
+    margin: 0;
+  }
+  .cardContainer {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+  }
+  .textContainer {
+    background-color: rgba(58, 58, 58, 0.2);
+    width: 35vw;
+    height: 20vw;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .textContainer p {
+    font-size: 2vw;
+    padding: 3vw 4vw 0.5vw 4vw;
+  }
+  .plusMinus {
+    gap: 1vw;
+  }
+  .plusMinus svg {
+    font-size: 2vw;
+    font-weight: 100;
+    cursor: pointer;
+  }
+  .plusMinus h2 {
+    font-family: "mindsetText";
+    font-size: 2.5vw;
+    font-weight: 400;
+    margin: 0;
+    cursor: pointer;
+  }
+  .sectionHidden{
+    margin-top: .2vw;
+    align-items: flex-start;
+  }
+  .sectionHidden h3 {
+    font-size: 2.5vw;
+    margin: 0;
+    font-family: "mindsetTitle";
+    font-weight: 500;
+  }
+  .sectionHidden h5 {
+    font-size: 1.5vw;
+    font-family: "mindsetText";
+  }
+  .sectionVisible{
+    margin-top: .2vw;
+    align-items: flex-start;
+    margin-bottom: 5vw;
+    height: 25vw;
+  }
+  .sectionVisible h3 {
+    font-size: 2.5vw;
+    margin: 0;
+    font-family: "mindsetTitle";
+    font-weight: 500;
+  }
+  .sectionVisible h5 {
+    font-size: 1.5vw;
+    font-family: "mindsetText";
+  }
+  .oneTwoThreeSection{
+    gap: 5vw;
+  }
+  .oneTwoThreeSection div {
+    height: auto;
+  }
+  .oneTwoThreeSection span{
+    width: 5vw;
+    height: 5vw;
+    font-size: 2vw;
+  }
+  .oneTwoThreeSection div p {
+    height: 50%;
+    font-family: "mindsetText";
+    font-size: 1.8vw;
+  }
+}
