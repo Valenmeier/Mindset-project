@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
 import MargenComponent from "../../common/MargenComponent/MargenComponent";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const DesktopNavbar = () => {
+  const location = useLocation();
   const [currentSection, setCurrentSection] = useState("");
 
   useEffect(() => {
@@ -19,7 +20,7 @@ const DesktopNavbar = () => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
+          if (entry.isIntersecting && location.pathname !== "/articulos") {
             setCurrentSection(entry.target.id);
           }
         });
@@ -31,14 +32,14 @@ const DesktopNavbar = () => {
       const element = document.getElementById(section.id);
       if (element) observer.observe(element);
     });
-
+    console.log(location);
     return () => {
       sections.forEach((section) => {
         const element = document.getElementById(section.id);
         if (element) observer.unobserve(element);
       });
     };
-  }, []);
+  }, [location]);
 
   return (
     <section className={styles.desktopNavbar}>
@@ -51,7 +52,11 @@ const DesktopNavbar = () => {
             <NavLink
               to={"/#quienesSomos"}
               className={
-                currentSection === "quienesSomos" ? styles.activeLink : ""
+                location.pathname !== "/articulos"
+                  ? currentSection === "quienesSomos"
+                    ? styles.activeLink
+                    : ""
+                  : ""
               }
             >
               ¿Quiénes somos?
@@ -59,7 +64,11 @@ const DesktopNavbar = () => {
             <NavLink
               to={"/#queHacemos"}
               className={
-                currentSection === "queHacemos" ? styles.activeLink : ""
+                location.pathname !== "/articulos"
+                  ? currentSection === "queHacemos"
+                    ? styles.activeLink
+                    : ""
+                  : ""
               }
             >
               ¿Qué hacemos?
@@ -67,7 +76,11 @@ const DesktopNavbar = () => {
             <NavLink
               to={"/#metodologia"}
               className={
-                currentSection === "metodologia" ? styles.activeLink : ""
+                location.pathname !== "/articulos"
+                  ? currentSection === "metodologia"
+                    ? styles.activeLink
+                    : ""
+                  : ""
               }
             >
               Metodología
@@ -75,7 +88,11 @@ const DesktopNavbar = () => {
             <NavLink
               to={"/#proyectos"}
               className={
-                currentSection === "proyectos" ? styles.activeLink : ""
+                location.pathname !== "/articulos"
+                  ? currentSection === "proyectos"
+                    ? styles.activeLink
+                    : ""
+                  : ""
               }
             >
               Proyectos
@@ -83,14 +100,20 @@ const DesktopNavbar = () => {
             <NavLink
               to={"/articulos"}
               className={
-                currentSection === "articulos" ? styles.activeLink : ""
+                location.pathname === "/articulos" ? styles.activeLink : ""
               }
             >
               Artículos
             </NavLink>
             <NavLink
               to={"/#contacto"}
-              className={currentSection === "contacto" ? styles.activeLink : ""}
+              className={
+                location.pathname !== "/articulos"
+                  ? currentSection === "contacto"
+                    ? styles.activeLink
+                    : ""
+                  : ""
+              }
             >
               Contacto
             </NavLink>

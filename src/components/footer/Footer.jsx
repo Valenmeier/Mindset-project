@@ -6,43 +6,48 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className={styles.footerContainer}>
-      <h3>
-        Síguenos en nuestras redes <br />
-        sociales
-      </h3>
-      <section className={styles.redesSociales}>
-        <a
-          href="https://www.facebook.com/mindset.consultoria.inteligente?mibextid=ZbWKwL"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsFacebook /> Mindset Consultoría
-        </a>
-        <a
-          href="http://https://twitter.com/mindset_consul"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <AiFillTwitterCircle /> @mindset_consul
-        </a>
+      <div className={styles.desktopImage}>
+        <img src="/images/logo-pc.png" alt="logo Mindset" />
+      </div>
+      <div>
+        <h3>
+          Síguenos en nuestras redes <br />
+          sociales
+        </h3>
+        <section className={styles.redesSociales}>
+          <a
+            href="https://www.facebook.com/mindset.consultoria.inteligente?mibextid=ZbWKwL"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsFacebook /> Mindset Consultoría
+          </a>
+          <a
+            href="http://https://twitter.com/mindset_consul"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillTwitterCircle /> @mindset.consul
+          </a>
 
-        <a
-          href="https://instagram.com/mindset.consultora?igshid=YmMyMTA2M2Y="
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsInstagram />
-          @mindset.consultora
-        </a>
-        <a
-          href="https://www.youtube.com/channel/UCAQLLvNcMXcnGH5sJjPXmtg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsYoutube />
-          Mindset consultoría
-        </a>
-      </section>
+          <a
+            href="https://instagram.com/mindset.consultora?igshid=YmMyMTA2M2Y="
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsInstagram />
+            @mindset.consultora
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCAQLLvNcMXcnGH5sJjPXmtg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsYoutube />
+            Mindset consultoría
+          </a>
+        </section>
+      </div>
     </footer>
   );
 };

@@ -10,11 +10,13 @@
   align-items: center;
   overflow: hidden;
 }
-.footerContainer h3 {
+.footerContainer div h3 {
   font-family: "mindsetText";
   font-size: 7vw;
   text-align: center;
-  
+}
+.desktopImage {
+  display: none;
 }
 .redesSociales {
   width: 100%;
@@ -26,7 +28,9 @@
   align-content: center;
   position: relative;
 }
-
+.redesSociales {
+  height: auto;
+}
 .redesSociales a {
   margin-left: 2vw;
   text-decoration: none;
@@ -41,6 +45,54 @@
   font-size: 5vw;
   font-family: "mindsetText";
 }
-.redesSociales svg{
-    font-size: 6vw;
+.redesSociales svg {
+  font-size: 6vw;
+}
+
+@media all and (min-width: 1000px) {
+  .footerContainer {
+    flex-direction: row;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .footerContainer div {
+    width: 50%;
+    height: 100%;
+  }
+  .footerContainer div:nth-child(2) {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+  }
+  .footerContainer div h3 {
+    font-size: 1.5vw;
+  }
+  .footerContainer div h3 br {
+    display: none;
+  }
+  .redesSociales {
+    padding-top: 0;
+    
+  }
+  .redesSociales a {
+    font-size: 1.5vw;
+  }
+  .redesSociales svg {
+    font-size: 2vw;
+  }
+  .desktopImage {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  .desktopImage img {
+    width: 38%;
+    height: 38%;
+    object-fit: cover;
+  }
 }

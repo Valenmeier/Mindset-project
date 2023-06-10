@@ -34,7 +34,7 @@ const Index = () => {
         // Ajusta el offset dependiendo de si es vista móvil o de escritorio
         const yOffset = isMobileView() ? -65 : -100;
         const y =
-          section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          section.getBoundingClientRect().top + window.scrollY + yOffset;
 
         window.scrollTo({ top: y, behavior: "smooth" });
       }
