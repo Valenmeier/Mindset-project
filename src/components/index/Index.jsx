@@ -36,7 +36,7 @@ const Index = () => {
         const y =
           section.getBoundingClientRect().top + window.scrollY + yOffset;
 
-        window.scrollTo({ top: y, behavior: "smooth" });
+        window.scrollTo({ top: y });
       }
     }
   }, [location, ready]);
