@@ -55,7 +55,7 @@ export const Contacto = () => {
           </p>
         </div>
 
-        <form className={styles.form} name="contact" netlify>
+        <form className={styles.form} name="contact" method="POST" data-netlify="true">
           <div className={styles.textSection}>
             <h3>¡Hablemos!</h3>
             <h4>
