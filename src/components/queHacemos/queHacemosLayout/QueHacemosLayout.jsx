@@ -17,7 +17,9 @@ const QueHacemosLayout = ({
     <section className={styles.layoutContainer}>
       <section className={styles.sectionContainer}>
         <section className={styles.iconContainer}>
-          <img src={icon} alt={title} />
+          <div className={styles.contenedorImagen}>
+            <img src={icon} alt={`${title}`} />
+          </div>
           {title}
         </section>
         <section className={styles.cardContainer}>

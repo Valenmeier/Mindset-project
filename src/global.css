@@ -3,12 +3,14 @@
   src: url("./fonts/PFSquareSansPro-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "MindsetText";
   src: url("./fonts/PFSquareSansPro-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 :root {
