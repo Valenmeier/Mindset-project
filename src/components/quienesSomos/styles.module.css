@@ -30,7 +30,7 @@
 }
 @media all and (min-width:1000px){
     .layout{
-        background-image: url("/images/quienesSomosDesktop.png");
+        background-image: url("/images/quienesSomosDesktop.webp");
         background-repeat: no-repeat;
         height: 90vh;
         background-size: cover;

@@ -32,7 +32,7 @@ const DesktopNavbar = () => {
       const element = document.getElementById(section.id);
       if (element) observer.observe(element);
     });
-    console.log(location);
+
     return () => {
       sections.forEach((section) => {
         const element = document.getElementById(section.id);
@@ -46,7 +46,7 @@ const DesktopNavbar = () => {
       <MargenComponent>
         <nav>
           <NavLink to={"/#inicio"} className={styles.contenedorLogoInicio}>
-            <img src="/images/logo-pc.png" alt="MindsetLogo" />
+            <img src="/images/logo-pc.webp" alt="MindsetLogo" />
           </NavLink>
           <div className={styles.navMenuSection}>
             <NavLink

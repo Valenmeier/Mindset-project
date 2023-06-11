@@ -26,8 +26,8 @@ const MetodologiaDesktop = () => {
         </div>
         <div>
           <p>
-            Mediante técnicas de insight, desarrollamos una investigación
-            profunda de la realidad interna y externa de tu negocio
+            Integramos los resultados de diagnósticos y análisis con los
+            objetivos y necesidades de negocios.
           </p>
           <CirclesMetodologia className={styles.circleModificado} number={3} />
         </div>

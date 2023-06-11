@@ -76,14 +76,14 @@ const MobileNavbar = () => {
           </NavLink>
         </div>
         <div className={styles.imageNavbar}>
-          <img src="/images/LOGO-MOBILE.png" alt="logoMindset" />
+          <img src="/images/LOGO-MOBILE.webp" alt="logoMindset" />
         </div>
       </nav>
       <MargenComponent>
         <div className={styles.navComponents}>
           <NavLink to={"/#inicio"}>
             <img
-              src="/images/LOGO-MOBILE.png"
+              src="/images/LOGO-MOBILE.webp"
               className={openMenu ? styles.desaparecer : ""}
               alt="logoMindset"
             />

@@ -48,7 +48,7 @@ const QueHacemosLayout = ({
       >
         <section className={styles.subtitleSection}>
           <h3>{subtext}</h3>
-          <h5>{subsubtext}</h5>
+          <h4>{subsubtext}</h4>
         </section>
         <section className={styles.oneTwoThreeSection}>
           <div className={styles.one}>

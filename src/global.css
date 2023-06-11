@@ -25,3 +25,8 @@ body {
   padding: 0;
   zoom: 1;
 }
+
+.bodyNoScroll {
+  overflow-y: hidden;
+  max-height: 100vh; /* Esto puede ser necesario dependiendo de tu caso específico */
+}

@@ -15,7 +15,7 @@ const QuienesSomos = () => {
       <TitleSection title={"¿Quiénes somos?"} text={text} />
       <div className={styles.layout}>
         <div className={styles.imageContainer}>
-          <img src="/images/quienesSomosMobile.png" alt="imagenQuienesSomos" />
+          <img src="/images/quienesSomosMobile.webp" alt="imagenQuienesSomos" />
         </div>
         <MargenComponent>
           <p>

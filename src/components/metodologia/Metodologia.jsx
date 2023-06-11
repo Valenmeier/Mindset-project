@@ -33,7 +33,7 @@ const Metodologia = () => {
       />
       <MetodologiaMobilLayout />
       <MetodologiaDesktop />
-      <img src="/images/metodologiaImagen.png" alt="metodologiaLayout" />
+      <img src="/images/metodologiaImagen.webp" alt="metodologiaLayout" />
     </section>
   );
 };

@@ -1,0 +1,203 @@
+.cardContainer {
+  width: 88vw;
+  height: 130vw;
+  border-radius: 6vw;
+  background-color: var(--bgSectionColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  margin-top: 2vw;
+  overflow: hidden;
+}
+.cardContainer img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 6vw;
+}
+.cardContainer section {
+  width: 100%;
+  height: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.titleCard {
+  color: var(--letterColor);
+  font-size: 7.5vw;
+  font-family: "mindsetTitle";
+  font-weight: 500;
+  margin-left: 3vw;
+  margin-top: 2vw;
+  width: 100%;
+  padding-top: 1.7vh;
+}
+.cardContainer section p {
+  font-size: 5.5vw;
+  width: 94%;
+  display: flex;
+  padding-top: 2vh;
+  align-items: center;
+  font-family: "mindsetText";
+  font-weight: 500;
+  margin-left: 3vw;
+  margin-bottom: 3vw;
+  color: var(--letterColor);
+}
+.cardContainer section span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: absolute;
+  width: 40vw;
+  height: 13vw;
+  border-radius: 5vw;
+  background-color: red;
+  font-size: 5.5vw;
+  bottom: 2.5vh;
+  font-family: "mindsetTitle";
+  right: 8%;
+  color: var(--letterColor);
+  cursor: pointer;
+}
+.popUpContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 8000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capaPopUp {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.popUp {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  border-radius: 4vw;
+  bottom: 5%;
+  background-color: #3a3a3a;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+}
+.popUp img {
+  width: 100%;
+  height: 32%;
+  border-radius: 4vw;
+  object-fit: cover;
+  object-position: center;
+}
+.popUp h3 {
+  width: 92%;
+  height: 20%;
+  color: var(--letterColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 6vw;
+  font-family: "mindsetTitle";
+  letter-spacing: 0.2vw;
+}
+.popUp p {
+  width: 92%;
+  height: 45%;
+  font-size: 4vw;
+  text-align: justify;
+  overflow-y: auto;
+  color: var(--letterColor);
+  font-family: "mindsetText";
+}
+.popUp h4{
+  position: absolute;
+  top: 2%;
+  font-family: "mindsetTitle";
+  right: 5%;
+  font-size: 6vw;
+  cursor: pointer;
+}
+@media all and (min-width: 1000px) {
+  .cardContainer {
+    width: 25vw;
+    height: 40vw;
+    border-radius: 2vw;
+    transition: all 0.5s;
+  }
+  .cardContainer:hover {
+    transform: scale(1.03);
+  }
+  .cardContainer img {
+    border-radius: 2vw;
+  }
+  .titleCard {
+    font-size: 2vw;
+    margin-left: 1vw;
+  }
+  .cardContainer section p {
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    margin-bottom: 0;
+  }
+  .cardContainer section span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: absolute;
+    width: 14vw;
+    height: 3.6vw;
+    border-radius: 5vw;
+    background-color: #f11b1c;
+    font-size: 1.5vw;
+    bottom: 2vh;
+    font-family: "mindsetTitle";
+    right: 8%;
+    color: var(--letterColor);
+    transition: all 0.5s;
+  }
+  .cardContainer section span:hover {
+    background-color: #c11212;
+  }
+  .capaPopUp{
+    display: none;
+  }
+  .popUpContainer{
+    width: 100vw;
+    height: 100vh;
+  }
+  .popUp{
+    width: 100%;
+    height: 100%;
+    border-radius: 0vw;
+    top: 0;
+    left: 0;
+  }
+  .popUp img{
+    height: 30%;
+    border-radius: 0 0 2vw 2vw;
+  }
+  .popUp h3{
+    font-size: 3.1vw;
+  }
+  .popUp p{
+    font-size: 2vw;
+    width: 90%;
+    padding: 1vw;
+  }
+  .popUp h4{
+    font-size: 3vw;
+    right: 3%;
+  }
+}

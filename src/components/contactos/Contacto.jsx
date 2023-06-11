@@ -1,4 +1,3 @@
-
 import TitleSection from "../common/titleSection/TitleSection";
 import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
@@ -31,7 +30,7 @@ export const Contacto = () => {
           <div>
             <div className={styles.imagenClient}>
               <img
-                src="./images/ErikaVasquezCuevas.png"
+                src="./images/foto perfil clienta.webp"
                 alt="Erika Vásquez Cuevas"
               />
             </div>

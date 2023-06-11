@@ -1,7 +1,7 @@
 .contenedorIndex {
   display: flex;
   justify-content: center;
-  position: relative !important;
+  position: relative ;
   max-width: 100vw;
   overflow-x: hidden;
   height: auto;

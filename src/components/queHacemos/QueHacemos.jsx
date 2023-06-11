@@ -84,7 +84,7 @@ const QueHacemos = () => {
           />
         </MargenComponent>
         <div className={styles.imagenLayout}>
-          <img src="/images/Que hacemos.png" alt="queHacemos" />
+          <img src="/images/Que hacemos.webp" alt="queHacemos" />
         </div>
       </div>
     </section>

@@ -1,13 +1,14 @@
 import { Link, useRouteError } from "react-router-dom";
+import styles from "./styles.module.css"
 
 const NotFound = () => {
   const error = useRouteError();
   
   return (
-    <div>
+    <div className={styles.notFoundContainer}>
+      <img src="/images/LOGO-MOBILE.webp" alt="Logo Mindset"  />
       <h1>404</h1>
-      <p>Page not found</p>
-      <p>{error.statusText || error.message}</p>
+      <p>¡¡Esta página no se encuentra disponible!!</p>
       <Link to="/">Volver al home</Link>
     </div>
   );

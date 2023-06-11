@@ -1,0 +1,22 @@
+.imagenInicio {
+  width: 100vw;
+  height: 30vh;
+  position: relative;
+  overflow: hidden;
+}
+.imagenInicio img {
+  width: 100vw;
+  height: 30vh;
+  object-fit: cover;
+  object-position: center;
+}
+.cardContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4vw 0 4vw 0;
+  gap: 4vw;
+  overflow-x: hidden;
+}

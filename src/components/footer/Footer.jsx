@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={styles.footerContainer}>
       <div className={styles.desktopImage}>
-        <img src="/images/logo-pc.png" alt="logo Mindset" />
+        <img src="/images/logoFooter.webp" alt="logo Mindset" />
       </div>
       <div>
         <h3>
