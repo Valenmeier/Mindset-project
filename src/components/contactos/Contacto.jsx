@@ -51,7 +51,7 @@ export const Contacto = () => {
           </p>
         </div>
 
-        <form className={styles.form} name="formulario-contacto" method="POST" data-netlify="true">
+        <form className={styles.form} action="https://formsubmit.co/meieneier6@gmail.com" method="POST">
           <div className={styles.textSection}>
             <h3>¡Hablemos!</h3>
             <h4>
