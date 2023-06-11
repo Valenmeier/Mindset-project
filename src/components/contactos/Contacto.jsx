@@ -55,7 +55,7 @@ export const Contacto = () => {
           </p>
         </div>
 
-        <form className={styles.form} netlify="true">
+        <form className={styles.form} name="contact" method="POST" data-netlify="true">
           <div className={styles.textSection}>
             <h3>¡Hablemos!</h3>
             <h4>
@@ -75,7 +75,7 @@ export const Contacto = () => {
                 <input
                   type="text"
                   id="nombre"
-                  name="name"
+                  name="nombre"
                   onFocus={() => setLabel1(true)}
                   onBlur={() => setLabel1(false)}
                   placeholder="Ingresá tu nombre"
