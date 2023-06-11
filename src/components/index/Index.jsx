@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import styles from "./styles.module.css";
-import { Inicio } from "../inicio/inicio.jsx";
+import Home from "../home/Home.jsx";
 import QuienesSomos from "../quienesSomos/QuienesSomos.jsx";
 import QueHacemos from "../queHacemos/QueHacemos.jsx";
 import Metodologia from "../metodologia/Metodologia.jsx";
@@ -13,7 +13,7 @@ const Index = () => {
   const [ready, setReady] = useState(false);
 
   const isMobileView = () => {
-    return window.innerWidth <= 1000; 
+    return window.innerWidth <= 1000;
   };
 
   useEffect(() => {
@@ -43,7 +43,7 @@ const Index = () => {
 
   return (
     <section className={styles.contenedorIndex}>
-      <Inicio />
+      <Home />
       <QuienesSomos />
       <QueHacemos />
       <Metodologia />
