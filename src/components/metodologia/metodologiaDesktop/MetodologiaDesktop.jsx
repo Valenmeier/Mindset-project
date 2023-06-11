@@ -1,5 +1,4 @@
-import MargenComponent from "../../common/MargenComponent/MargenComponent";
-import CirclesMetodologia from "../circlesMetodología/CirclesMetodologia";
+import CirclesMetodologia from "../circlesMetodología/CirclesMetodologia.jsx";
 import styles from "./styles.module.css";
 
 const MetodologiaDesktop = () => {

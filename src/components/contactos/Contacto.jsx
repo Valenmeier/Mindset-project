@@ -1,4 +1,4 @@
-import TitleSection from "../common/titleSection/TitleSection";
+import TitleSection from "../common/titleSection/TitleSection.jsx";
 import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
 import { LuMail } from "react-icons/lu";

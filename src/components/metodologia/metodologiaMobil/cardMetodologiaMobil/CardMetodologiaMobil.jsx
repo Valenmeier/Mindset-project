@@ -1,4 +1,4 @@
-import CirclesMetodologia from "../../circlesMetodología/CirclesMetodologia";
+import CirclesMetodologia from "../../circlesMetodología/CirclesMetodologia.jsx";
 import styles from "./styles.module.css";
 const CardMetodologiaMobil = ({ number, text }) => {
   return (

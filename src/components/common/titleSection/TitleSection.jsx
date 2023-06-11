@@ -1,4 +1,4 @@
-import MargenComponent from "../MargenComponent/MargenComponent";
+import MargenComponent from "../MargenComponent/MargenComponent.jsx";
 import styles from "./styles.module.css";
 
 const TitleSection = ({ title, text }) => {

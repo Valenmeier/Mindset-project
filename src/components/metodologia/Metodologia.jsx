@@ -1,9 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
-import TitleSection from "../common/titleSection/TitleSection";
-import MetodologiaMobilLayout from "./metodologiaMobil/metodologiaMobilLayout/MetodologiaMobilLayout";
-import MetodologiaDesktop from "./metodologiaDesktop/MetodologiaDesktop";
+import TitleSection from "../common/titleSection/TitleSection.jsx";
+import MetodologiaMobilLayout from "./metodologiaMobil/metodologiaMobilLayout/MetodologiaMobilLayout.jsx";
+import MetodologiaDesktop from "./metodologiaDesktop/MetodologiaDesktop.jsx";
 
 const Metodologia = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);

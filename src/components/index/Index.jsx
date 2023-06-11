@@ -1,12 +1,12 @@
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import styles from "./styles.module.css";
-import { Inicio } from "../inicio/inicio";
-import QuienesSomos from "../quienesSomos/QuienesSomos";
-import QueHacemos from "../queHacemos/QueHacemos";
-import Metodologia from "../metodologia/Metodologia";
-import Proyects from "../proyects/Proyects";
-import { Contacto } from "../contactos/Contacto";
+import { Inicio } from "../inicio/inicio.jsx";
+import QuienesSomos from "../quienesSomos/QuienesSomos.jsx";
+import QueHacemos from "../queHacemos/QueHacemos.jsx";
+import Metodologia from "../metodologia/Metodologia.jsx";
+import Proyects from "../proyects/Proyects.jsx";
+import { Contacto } from "../contactos/Contacto.jsx";
 
 const Index = () => {
   const location = useLocation();

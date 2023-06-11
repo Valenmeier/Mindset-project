@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
-import MargenComponent from "../../common/MargenComponent/MargenComponent";
+import MargenComponent from "../../common/MargenComponent/MargenComponent.jsx";
 import { NavLink, useLocation } from "react-router-dom";
 
 const DesktopNavbar = () => {

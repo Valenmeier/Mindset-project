@@ -2,7 +2,7 @@ import { Link, useRouteError } from "react-router-dom";
 import styles from "./styles.module.css"
 
 const NotFound = () => {
-  const error = useRouteError();
+
   
   return (
     <div className={styles.notFoundContainer}>

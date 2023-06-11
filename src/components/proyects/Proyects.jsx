@@ -1,8 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import TitleSection from "../common/titleSection/TitleSection";
+import TitleSection from "../common/titleSection/TitleSection.jsx";
 import styles from "./styles.module.css";
-import CardProyects from "./cardsProyects/CardProyects";
+import CardProyects from "./cardsProyects/CardProyects.jsx";
 const Proyects = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 

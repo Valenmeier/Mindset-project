@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
-import CardMetodologiaMobil from "../cardMetodologiaMobil/CardMetodologiaMobil";
-import MargenComponent from "../../../common/MargenComponent/MargenComponent";
+import CardMetodologiaMobil from "../cardMetodologiaMobil/CardMetodologiaMobil.jsx";
+
 
 const MetodologiaMobilLayout = () => {
   return (

@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
-import MobileNavbar from "./mobileNavbar/MobileNavbar";
-import DesktopNavbar from "./desktopNavbar/DesktopNavbar";
+import MobileNavbar from "./mobileNavbar/MobileNavbar.jsx";
+import DesktopNavbar from "./desktopNavbar/DesktopNavbar.jsx";
 
 const Navbar = () => {
   return (

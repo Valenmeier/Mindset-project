@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
-import TitleSection from "../common/titleSection/TitleSection";
-import MargenComponent from "../common/MargenComponent/MargenComponent";
+import TitleSection from "../common/titleSection/TitleSection.jsx";
+import MargenComponent from "../common/MargenComponent/MargenComponent.jsx";
 
 const QuienesSomos = () => {
   let text = (

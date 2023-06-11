@@ -1,8 +1,8 @@
 import Articles from "../components/articles/Articles";
 import { createBrowserRouter } from "react-router-dom";
-import NotFound from "../components/common/notFound/NotFound";
-import GeneralLayout from "../layout/generalLayout/GeneralLayout";
-import Index from "../components/index/Index";
+import NotFound from "../components/common/notFound/NotFound.jsx";
+import GeneralLayout from "../layout/generalLayout/GeneralLayout.jsx";
+import Index from "../components/index/Index.jsx";
 
 export const router = createBrowserRouter([
   {

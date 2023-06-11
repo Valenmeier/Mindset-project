@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import TitleSection from "../common/titleSection/TitleSection";
+import TitleSection from "../common/titleSection/TitleSection.jsx";
 import styles from "./styles.module.css";
-import MargenComponent from "../common/MargenComponent/MargenComponent";
-import QueHacemosLayout from "./queHacemosLayout/QueHacemosLayout";
+import MargenComponent from "../common/MargenComponent/MargenComponent.jsx";
+import QueHacemosLayout from "./queHacemosLayout/QueHacemosLayout.jsx";
 import MindsetAnalyticIcon from "../../assets/mindsetAnalitic.svg";
 import MindsetIvestigaIcon from "../../assets/mindsetInvestiga.svg";
 const QueHacemos = () => {

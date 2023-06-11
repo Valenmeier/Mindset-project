@@ -1,8 +1,8 @@
 import React from "react";
-import TitleSection from "../common/titleSection/TitleSection";
+import TitleSection from "../common/titleSection/TitleSection.jsx";
 import CardArticles from "./cardsArticles/CardArticles.jsx";
 import styles from "./styles.module.css";
-import TextoConEspacio from "../common/textoConEspacio/TextoConEspacio";
+import TextoConEspacio from "../common/textoConEspacio/TextoConEspacio.jsx";
 
 const Articles = () => {
   return (
