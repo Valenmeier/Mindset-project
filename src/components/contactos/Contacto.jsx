@@ -18,9 +18,7 @@ export const Contacto = () => {
   }, []);
   let text = <p>Empecemos a crear tu estrategia empresarial</p>;
 
-  let manejarEnvio = (e) => {
-    e.preventDefault();
-  };
+
 
   return (
     <section id="contacto">
