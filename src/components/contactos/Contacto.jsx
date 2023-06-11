@@ -18,8 +18,6 @@ export const Contacto = () => {
   }, []);
   let text = <p>Empecemos a crear tu estrategia empresarial</p>;
 
-
-
   return (
     <section id="contacto">
       <TitleSection title={"Contacto"} text={windowWidth >= 1000 ? text : ""} />
@@ -53,7 +51,7 @@ export const Contacto = () => {
           </p>
         </div>
 
-        <form className={styles.form} name="contact" method="POST" netlify>
+        <form className={styles.form} name="formulario-contacto" netlify>
           <div className={styles.textSection}>
             <h3>¡Hablemos!</h3>
             <h4>
@@ -69,10 +67,9 @@ export const Contacto = () => {
                   className={label1 ? styles.activeLabel : ""}
                 >
                   Nombre
-                </label>{" "}
+                </label>
                 <input
                   type="text"
-                  id="nombre"
                   name="nombre"
                   onFocus={() => setLabel1(true)}
                   onBlur={() => setLabel1(false)}
@@ -86,10 +83,9 @@ export const Contacto = () => {
                   className={label2 ? styles.activeLabel : ""}
                 >
                   Email
-                </label>{" "}
+                </label>
                 <input
                   type="email"
-                  id="email"
                   name="email"
                   onFocus={() => setLabel2(true)}
                   onBlur={() => setLabel2(false)}
