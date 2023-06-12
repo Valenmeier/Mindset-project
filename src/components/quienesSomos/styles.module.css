@@ -9,40 +9,67 @@
   flex-direction: column;
   position: relative;
 }
-.imageContainer{
-    height: 50%;
-    width: 100%;
+.imageContainer {
+  height: 50%;
+  width: 100%;
 }
-.imageContainer img{
-    width: 100%;
-    height: 90%;
-    object-position: center;
-    object-fit: cover;
-    border-radius: 0 0 10vw 10vw;
-    box-shadow: 0 0vw 20vw 5vw #000;
+.imageContainer img {
+  width: 100%;
+  height: 90%;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 0 0 10vw 10vw;
+  box-shadow: 0 0vw 20vw 5vw #000;
 }
-.layout p{
-    font-family: "mindsetText";
-    font-size: 5vw;
-    text-align: center;
-    color: var(--letterColor);
-    letter-spacing: .2vw;
+.layout p {
+  font-family: "mindsetText";
+  font-size: 5vw;
+  text-align: center;
+  color: var(--letterColor);
+  letter-spacing: 0.2vw;
 }
-@media all and (min-width:1000px){
-    .layout{
-        background-image: url("/images/quienesSomosDesktop.webp");
-        background-repeat: no-repeat;
-        height: 90vh;
-        background-size: cover;
-    }
-    .imageContainer{
-        display: none;
-    }
-    .layout p{
-        font-size: 2.5vw;
-        width: 43.99vw;
-        position: absolute;
-        top: 45vh;
-        right: 4vw;
-    }
+@media all and (min-width: 1000px) {
+  .layout {
+    background-image: url("/images/quienesSomosDesktop.webp");
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+  }
+  .imageContainer {
+    display: none;
+  }
+  .layout p {
+    font-size: 2.5vw;
+    width: 43.99vw;
+    position: absolute;
+    top: 45vh;
+    right: 4vw;
+  }
+}
+@media all and (min-width: 1200px) {
+  .layout {
+    background-image: url("/images/quienesSomosDesktop.webp");
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+  }
+  .imageContainer {
+    display: none;
+  }
+  .layout p {
+    font-size: 2.1vw;
+    width: 43.99vw;
+    position: absolute;
+    top: 45vh;
+    right: 4vw;
+  }
+}
+@media all and (min-width: 1380px) {
+  .layout p {
+    font-size: 1.8vw;
+    width: 43.99vw;
+    position: absolute;
+    top: 45vh;
+    right: 4vw;
+  }
 }

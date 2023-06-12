@@ -277,4 +277,14 @@
     font-family: "mindsetText";
     font-size: 1.8vw;
   }
+  @media all and (min-width: 1200px) {
+    .layoutContainer{
+      gap: 4.5vw;
+    }
+  }
+  @media all and (min-width: 1600px) {
+    .layoutContainer{
+      gap: 7.5vw;
+    }
+  }
 }
