@@ -23,11 +23,11 @@ const Footer = () => {
             <BsFacebook /> Mindset Consultoría
           </a>
           <a
-            href="http://https://twitter.com/mindset_consul"
+            href="https://twitter.com/mindset_consul"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <AiFillTwitterCircle /> @mindset.consul
+            <AiFillTwitterCircle /> @mindset_consul
           </a>
 
           <a
