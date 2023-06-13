@@ -49,7 +49,7 @@ const QueHacemos = () => {
       />
       <div className={styles.containSection}>
         <MargenComponent>
-          <h3>Ofrecemos dos tipos de servicios</h3>
+          <h3 className={styles.tituloContainer}>Ofrecemos dos tipos de servicios</h3>
           <QueHacemosLayout
             icon={MindsetAnalyticIcon}
             title={titleAnalytic}
