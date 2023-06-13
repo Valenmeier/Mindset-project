@@ -9,6 +9,10 @@
   font-family: "mindsetText";
   font-size: 6.6vw;
   margin-top: 3vh;
+  margin-bottom: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .imagenLayout{
   width: 100vw;
