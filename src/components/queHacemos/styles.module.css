@@ -7,8 +7,8 @@
 }
 .containSection h3 {
   font-family: "mindsetText";
-  font-size: 5vw;
-  margin-top: 2vw;
+  font-size: 6.6vw;
+  margin-top: 3vh;
 }
 .imagenLayout{
   width: 100vw;
@@ -24,8 +24,8 @@
 }
 @media all and (min-width: 500px) {
   .containSection h3 {
-    font-size: 4vw;
-    margin: 1vw 0 1vw 0;
+    font-size: 6vw;
+    margin: 2vh 0 2vh 0;
     margin-bottom: 2vw;
     padding-bottom: 2vw;
   }
