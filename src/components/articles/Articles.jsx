@@ -10,7 +10,7 @@ const Articles = () => {
       <div className={styles.imagenInicio}>
         <img src="/images/MindsetArticles.webp" alt="Mindset Articles" />
       </div>
-      <TitleSection title={"Articulos"} />
+      <TitleSection title={"Artículos"} />
       <section className={styles.cardContainer}>
         <CardArticles
           imagen={"/images/cardArticulos1.webp"}

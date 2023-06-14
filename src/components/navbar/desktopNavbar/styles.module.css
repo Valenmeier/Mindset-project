@@ -14,10 +14,9 @@
   justify-content: space-between;
   align-items: center;
 }
-.contenedorLogoInicio{
+.contenedorLogoInicio {
   width: 20%;
   height: 100%;
-
 }
 .desktopNavbar nav img {
   width: 100%;
@@ -40,6 +39,11 @@
   font-weight: 400;
   cursor: pointer;
   position: relative;
+  transition: all .5s;
+}
+.navMenuSection a:hover {
+  font-weight: 500;
+  transform: scale(1.15);
 }
 
 .navMenuSection .activeLink {
@@ -49,7 +53,7 @@
 .navMenuSection .activeLink::after {
   content: "";
   width: 0%;
-  height: .8vh;
+  height: 0.8vh;
   background-color: var(--letterColor);
   position: absolute;
   bottom: -1.5vh;
@@ -58,8 +62,6 @@
   transition: all 1s;
   width: 100%;
 }
-
-
 
 @media all and (max-width: 1000px) {
   .desktopNavbar {

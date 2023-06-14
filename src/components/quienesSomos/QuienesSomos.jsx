@@ -21,9 +21,9 @@ const QuienesSomos = () => {
           <p>
             <b>
               Nuestra meta principal es ser aliados y socios estratégicos de
-              nuestros clientes,
+              nuestros clientes, 
             </b>
-            donde nuesto mayor interés es optimizar la toma de decisiones y el
+            donde nuestro mayor interés es optimizar la toma de decisiones y el
             uso de sus recursos para lograr sus objetivos de manera eficiente.
           </p>
         </MargenComponent>

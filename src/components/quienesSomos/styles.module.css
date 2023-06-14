@@ -28,6 +28,9 @@
   color: var(--letterColor);
   letter-spacing: 0.2vw;
 }
+.layout p b{
+  margin-right: .7vw;
+}
 @media all and (min-width: 1000px) {
   .layout {
     background-image: url("/images/quienesSomosDesktop.webp");
