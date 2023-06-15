@@ -120,7 +120,7 @@
   color: var(--letterColor);
   font-family: "mindsetText";
 }
-.popUp h4{
+.popUp h4 {
   position: absolute;
   top: 2%;
   font-family: "mindsetTitle";
@@ -130,23 +130,24 @@
 }
 @media all and (min-width: 1000px) {
   .cardContainer {
-    width: 25vw;
-    height: 40vw;
-    border-radius: 2vw;
+    width: 20vw;
+    height: 30vw; 
+    border-radius: 1vw;
     transition: all 0.5s;
   }
   .cardContainer:hover {
     transform: scale(1.03);
   }
   .cardContainer img {
-    border-radius: 2vw;
+    border-radius: 1vw;
   }
   .titleCard {
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-left: 1vw;
+    width: 90%;
   }
   .cardContainer section p {
-    font-size: 1.5vw;
+    font-size: 1vw;
     margin-left: 1vw;
     margin-bottom: 0;
   }
@@ -156,11 +157,11 @@
     align-items: center;
     text-decoration: none;
     position: absolute;
-    width: 14vw;
-    height: 3.6vw;
+    width: 10vw;
+    height: 2.6vw;
     border-radius: 5vw;
     background-color: #f11b1c;
-    font-size: 1.5vw;
+    font-size: 1vw;
     bottom: 2vh;
     font-family: "mindsetTitle";
     right: 8%;
@@ -170,33 +171,33 @@
   .cardContainer section span:hover {
     background-color: #c11212;
   }
-  .capaPopUp{
+  .capaPopUp {
     display: none;
   }
-  .popUpContainer{
+  .popUpContainer {
     width: 100vw;
     height: 100vh;
   }
-  .popUp{
+  .popUp {
     width: 100%;
     height: 100%;
     border-radius: 0vw;
     top: 0;
     left: 0;
   }
-  .popUp img{
+  .popUp img {
     height: 30%;
     border-radius: 0 0 2vw 2vw;
   }
-  .popUp h3{
+  .popUp h3 {
     font-size: 3.1vw;
   }
-  .popUp p{
+  .popUp p {
     font-size: 2vw;
     width: 90%;
     padding: 1vw;
   }
-  .popUp h4{
+  .popUp h4 {
     font-size: 3vw;
     right: 3%;
   }

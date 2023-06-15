@@ -180,17 +180,17 @@
   .sectionContainer {
     display: flex;
     justify-content: space-around;
-    height: 40vh;
+    height: 20vh;
   }
   .iconContainer{
     width: 30vw;
   }
   .iconContainer div {
-    width: 8vw;
-    height: 8vw;
+    width: 6vw;
+    height: 6vw;
   }
   .iconContainer h3 {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     text-align: center;
     font-size: "mindsetTitle";
     margin: 0;
@@ -201,32 +201,34 @@
     justify-content: center;
     align-items: center;
     width: 50vw;
+    
   }
   .textContainer {
     background-color: rgba(58, 58, 58, 0.2);
-    width: 35vw;
-    height: 20vw;
+    width: 23vw;
+    height: 13vw;
     border-radius: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 2vw;
   }
   .textContainer p {
-    font-size: 2vw;
-    padding: 3vw 4vw 0.5vw 4vw;
+    font-size: 1vw;
+    padding: 2vw 4vw 0.5vw 4vw;
   }
   .plusMinus {
     gap: 1vw;
   }
   .plusMinus svg {
-    font-size: 2vw;
+    font-size: 1vw;
     font-weight: 100;
     cursor: pointer;
   }
   .plusMinus h2 {
     font-family: "mindsetText";
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     font-weight: 400;
     margin: 0;
     cursor: pointer;
@@ -236,46 +238,46 @@
     align-items: flex-start;
   }
   .sectionHidden h3 {
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     margin: 0;
     font-family: "mindsetTitle";
     font-weight: 500;
   }
   .sectionHidden h4 {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-family: "mindsetText";
   }
   .sectionVisible{
     margin-top: .2vw;
     align-items: flex-start;
-    margin-bottom: 5vw;
+    margin-bottom: 3vw;
     height: 25vw;
   }
   .sectionVisible h3 {
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     margin: 0;
     font-family: "mindsetTitle";
     font-weight: 500;
   }
   .sectionVisible h5 {
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-family: "mindsetText";
   }
   .oneTwoThreeSection{
-    gap: 5vw;
+    gap: 4vw;
   }
   .oneTwoThreeSection div {
     height: auto;
   }
   .oneTwoThreeSection span{
-    width: 5vw;
-    height: 5vw;
-    font-size: 2vw;
+    width: 4vw;
+    height: 4vw;
+    font-size: 1.7vw;
   }
   .oneTwoThreeSection div p {
     height: 50%;
     font-family: "mindsetText";
-    font-size: 1.8vw;
+    font-size: 1.5vw;
   }
   @media all and (min-width: 1200px) {
     .layoutContainer{

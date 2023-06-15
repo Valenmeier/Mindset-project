@@ -6,7 +6,7 @@ import QuienesSomos from "../quienesSomos/QuienesSomos.jsx";
 import QueHacemos from "../queHacemos/QueHacemos.jsx";
 import Metodologia from "../metodologia/Metodologia.jsx";
 import Proyects from "../proyects/Proyects.jsx";
-import { Contacto } from "../contactos/Contacto.jsx";
+import { Contacto } from "../contactos/Contacto";
 
 const Index = () => {
   const location = useLocation();

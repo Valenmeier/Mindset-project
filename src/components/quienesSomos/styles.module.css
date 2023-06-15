@@ -36,7 +36,7 @@
     background-image: url("/images/quienesSomosDesktop.webp");
     background-repeat: no-repeat;
     height: 75vh;
-    background-size: cover;
+    background-size: contain;
   }
   .imageContainer {
     display: none;

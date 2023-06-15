@@ -57,19 +57,19 @@
 
 @media all and (min-width: 1000px) {
   .cardContainer {
-    width: 25vw;
-    height: 40vw;
-    border-radius: 2vw;
+    width: 18vw;
+    height: 32vw;
+    border-radius: 1vw;
     transition: all .5s;
   }
   .cardContainer:hover{
     transform: scale(1.03);
   }
   .cardContainer img {
-    border-radius: 2vw;
+    border-radius: 1vw;
   }
   .cardContainer section p {
-    font-size: 2vw;
+    font-size: 1.6vw;
     margin-left: 1vw;
     margin-bottom: 0;
   }
@@ -79,11 +79,11 @@
     align-items: center;
     text-decoration: none;
     position: absolute;
-    width: 14vw;
-    height: 3.6vw;
+    width: 10vw;
+    height: 2.6vw;
     border-radius: 5vw;
     background-color: #f11b1c;
-    font-size: 2vw;
+    font-size: 1.5vw;
     bottom: 2vh;
     font-family: "mindsetTitle";
     right: 8%;

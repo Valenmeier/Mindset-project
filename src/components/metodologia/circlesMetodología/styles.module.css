@@ -15,9 +15,9 @@
 
 @media all and (min-width:1000px){
     .circles{
-        width: 6vw;
-        height: 6vw;
-        font-size: 4vw;
+        width: 5vw;
+        height: 5vw;
+        font-size: 3vw;
         position: relative;
         font-family: "mindsetTitle";
     }

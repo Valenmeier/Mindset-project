@@ -1,4 +1,4 @@
-import TitleSection from "../common/titleSection/TitleSection.jsx";
+import TitleSection from "../common/titleSection/TitleSection";
 import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
 import { LuMail } from "react-icons/lu";
@@ -75,6 +75,7 @@ export const Contacto = () => {
                 <input
                   type="text"
                   name="nombre"
+                  id="nombre"
                   onFocus={() => setLabel1(true)}
                   onBlur={() => setLabel1(false)}
                   placeholder="Ingresá tu nombre"
@@ -91,6 +92,7 @@ export const Contacto = () => {
                 <input
                   type="email"
                   name="email"
+                  id="email"
                   onFocus={() => setLabel2(true)}
                   onBlur={() => setLabel2(false)}
                   placeholder="Ingresá tu correo electrónico"

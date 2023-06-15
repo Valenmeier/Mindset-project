@@ -172,6 +172,7 @@
 @media all and (min-width: 1000px) {
   .contactoSection {
     flex-direction: row;
+    height: 75vh;
   }
   .infoPersonal {
     width: 50%;
@@ -185,19 +186,21 @@
   .infoPersonal .infoDesktop {
     display: flex;
     width: 80%;
-    height: 50%;
+    height: 40%;
     background-color: red;
     border-radius: 2vw;
     background-color: #d8d8d8;
     justify-content: center;
     align-items: center;
     padding: 2vw;
-    font-size: 1.5vw;
+    font-size: 1vw;
     text-align: center;
     font-family: "mindsetText";
     font-weight: 400;
   }
-
+  .infoPersonal div {
+    width: 88%;
+  }
   .infoPersonal div .presentacionCliente {
     width: 74%;
     max-height: 50%;
@@ -207,33 +210,34 @@
     align-items: start;
     gap: 1vw;
   }
-  .imagenClient {
-    width: 10vw;
-    height: 10vw;
+  .infoPersonal .imagenClient {
+    width: 8vw;
+    height: 8vw;
   }
   .presentacionCliente h1 {
-    font-size: 3vw;
+    font-size: 2.2vw;
   }
   .presentacionCliente h2 {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
   }
   .presentacionCliente h3 {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
   }
   .presentacionCliente h3 span {
-    font-size: 2vw;
+    font-size: 1.2vw;
   }
+
   .form {
     width: 55%;
     height: 80%;
-    justify-content: space-between;
+    justify-content: space-around;
     overflow: hidden;
   }
   .form h3 {
-    font-size: 4vw;
+    font-size: 2.4vw;
   }
   .form h4 {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
   }
   .inputsForm {
     flex-direction: row;
@@ -243,7 +247,7 @@
     gap: 1vw;
   }
   .formContainer {
-    height: 61%;
+    height: 70%;
     width: 90%;
     overflow-x: visible;
     gap: 2vw;
@@ -251,25 +255,25 @@
   .form input {
     width: 22vw;
     padding-left: 0.9vw;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
     border-radius: 0.5vw 0.5vw 0 0;
   }
   .formContainer div label {
     margin-left: 0.9vw;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
   }
-  .textSection{
-    height: 30%;
-    gap: 2vw;
+  .textSection {
+    height: 8vh;
+    gap: .5vw;
   }
   .form textarea {
     padding: 1vw 0vw 0 1vw;
-    font-size: 1.7vw;
+    font-size: 1.2vw;
   }
   .form button {
     width: 100%;
-    height: 10vw;
-    font-size: 2vw;
+    height: 8vw;
+    font-size: 1.8vw;
     letter-spacing: 0;
     cursor: pointer;
     transition: all 0.4s;
