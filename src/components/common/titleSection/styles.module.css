@@ -31,18 +31,21 @@
   color: var(--letterColor);
   margin: 0;
   font-weight: 300;
-  letter-spacing: .2vw;
+  letter-spacing: 0.2vw;
 }
 
-@media all and (min-width:1000px){
-    .textSection{
-        gap: 2vh;
-    }
-    .textSection h3 {
-        font-size: 3vw;
-    }
-    .textSection p{
-        font-size: 1.2vw;
-        letter-spacing: .05vw;
-    }
+@media all and (min-width: 1000px) {
+  .titleSection {
+    height: 15vh;
+  }
+  .textSection {
+    gap: 2vh;
+  }
+  .textSection h3 {
+    font-size: 2vw;
+  }
+  .textSection p {
+    font-size: 1vw;
+    letter-spacing: 0.05vw;
+  }
 }

@@ -27,11 +27,11 @@ export const Contacto = () => {
             <div className={styles.imagenClient}>
               <img
                 src="./images/foto perfil clienta.webp"
-                alt="Erika Vásquez Cuevas"
+                alt="Erika Vásquez Cueva"
               />
             </div>
             <div className={styles.presentacionCliente}>
-              <h1>Erika Vásquez Cuevas</h1>
+              <h1>Erika Vásquez Cueva</h1>
               <h2>Directora de Inteligencia Comercial</h2>
               <h3>
                 <span>

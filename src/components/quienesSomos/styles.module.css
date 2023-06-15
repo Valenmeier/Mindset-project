@@ -28,51 +28,51 @@
   color: var(--letterColor);
   letter-spacing: 0.2vw;
 }
-.layout p b{
-  margin-right: .7vw;
+.layout p b {
+  margin-right: 0.7vw;
 }
 @media all and (min-width: 1000px) {
   .layout {
     background-image: url("/images/quienesSomosDesktop.webp");
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 75vh;
     background-size: cover;
   }
   .imageContainer {
     display: none;
   }
   .layout p {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     width: 43.99vw;
     position: absolute;
-    top: 45vh;
-    right: 4vw;
+    top: 35vh;
+    right: 3vw;
   }
 }
 @media all and (min-width: 1200px) {
   .layout {
     background-image: url("/images/quienesSomosDesktop.webp");
     background-repeat: no-repeat;
-    height: 90vh;
-    background-size: cover;
+    height: 75vh;
+    background-size: contain;
   }
   .imageContainer {
     display: none;
   }
   .layout p {
-    font-size: 2.1vw;
+    font-size: 1.5vw;
     width: 43.99vw;
     position: absolute;
-    top: 45vh;
-    right: 4vw;
+    top: 35vh;
+    right: 3vw;
   }
 }
 @media all and (min-width: 1380px) {
   .layout p {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     width: 43.99vw;
     position: absolute;
-    top: 45vh;
-    right: 4vw;
+    top: 32vh;
+    right: 6vw;
   }
 }
