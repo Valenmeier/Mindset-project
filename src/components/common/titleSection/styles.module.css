@@ -37,6 +37,7 @@
 @media all and (min-width: 1000px) {
   .titleSection {
     height: 15vh;
+    padding: 1vw;
   }
   .textSection {
     gap: 2vh;
