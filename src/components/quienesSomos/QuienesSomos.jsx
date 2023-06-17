@@ -15,7 +15,7 @@ const QuienesSomos = () => {
       <TitleSection title={"¿Quiénes somos?"} text={text} />
       <div className={styles.layout}>
         <div className={styles.imageContainer}>
-          <img src="/images/quienesSomosMobile.webp" alt="imagenQuienesSomos" />
+          <img src="https://res.cloudinary.com/meierdeveloper/image/upload/v1687023348/Mindset/quienesSomosMobile_phfk8b.webp" alt="imagenQuienesSomos" />
         </div>
         <MargenComponent>
           <p>

@@ -33,7 +33,7 @@ const Metodologia = () => {
       />
       <MetodologiaMobilLayout />
       <MetodologiaDesktop />
-      <img src="/images/metodologiaImagen.webp" alt="metodologiaLayout" />
+      <img src="https://res.cloudinary.com/meierdeveloper/image/upload/v1687023348/Mindset/metodologiaImagen_jbrybj.webp" alt="metodologiaLayout" />
     </section>
   );
 };

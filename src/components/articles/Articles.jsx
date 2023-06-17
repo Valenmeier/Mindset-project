@@ -8,12 +8,12 @@ const Articles = () => {
   return (
     <section id="articulos">
       <div className={styles.imagenInicio}>
-        <img src="/images/MindsetArticles.webp" alt="Mindset Articles" />
+        <img src="https://res.cloudinary.com/meierdeveloper/image/upload/v1687023348/Mindset/MindsetArticles_lwbrxe.webp" alt="Mindset Articles" />
       </div>
       <TitleSection title={"Artículos"} />
       <section className={styles.cardContainer}>
         <CardArticles
-          imagen={"/images/cardArticulos1.webp"}
+          imagen={"https://res.cloudinary.com/meierdeveloper/image/upload/v1687023348/Mindset/cardArticulos1_xzsd9l.webp"}
           title={"El poder de los datos"}
           texto={
             "A través de los datos podemos potenciar el crecimiento de negocios."
@@ -52,7 +52,7 @@ const Articles = () => {
           }
         />
         <CardArticles
-          imagen={"/images/cardArticulos2.webp"}
+          imagen={"https://res.cloudinary.com/meierdeveloper/image/upload/v1687023346/Mindset/cardArticulos2_frdthy.webp"}
           title={"El valor de la analítica"}
           texto={"Analítica como clave del éxito para las PYMES."}
           titlePopup={
@@ -78,7 +78,7 @@ const Articles = () => {
           }
         />
         <CardArticles
-          imagen={"/images/cardArticulos3.webp"}
+          imagen={"https://res.cloudinary.com/meierdeveloper/image/upload/v1687023346/Mindset/cardArticulos3_v4wu2t.webp"}
           title={"Marketing Analytics"}
           texto={"Una estrategia basada en información."}
           titlePopup={

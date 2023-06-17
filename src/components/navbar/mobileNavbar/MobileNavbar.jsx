@@ -76,14 +76,14 @@ const MobileNavbar = () => {
           </NavLink>
         </div>
         <div className={styles.imageNavbar}>
-          <img src="/images/LOGO-MOBILE.webp" alt="logoMindset" />
+          <img src="https://res.cloudinary.com/meierdeveloper/image/upload/v1687023347/Mindset/LOGO-MOBILE_lfby4o.webp" alt="logoMindset" />
         </div>
       </nav>
       <MargenComponent>
         <div className={styles.navComponents}>
           <NavLink to={"/#inicio"}>
             <img
-              src="/images/LOGO-MOBILE.webp"
+              src="https://res.cloudinary.com/meierdeveloper/image/upload/v1687023347/Mindset/LOGO-MOBILE_lfby4o.webp"
               className={openMenu ? styles.desaparecer : ""}
               alt="logoMindset"
             />

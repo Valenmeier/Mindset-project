@@ -26,7 +26,7 @@ export const Contacto = () => {
           <div>
             <div className={styles.imagenClient}>
               <img
-                src="./images/foto perfil clienta.webp"
+                src="https://res.cloudinary.com/meierdeveloper/image/upload/v1687023346/Mindset/foto_perfil_clienta_mczdzt.webp"
                 alt="Erika Vásquez Cueva"
               />
             </div>

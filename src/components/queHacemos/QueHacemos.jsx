@@ -84,7 +84,7 @@ const QueHacemos = () => {
           />
         </MargenComponent>
         <div className={styles.imagenLayout}>
-          <img src="/images/Que hacemos.webp" alt="queHacemos" />
+          <img src="https://res.cloudinary.com/meierdeveloper/image/upload/v1687023348/Mindset/Que_hacemos_om7kyn.webp" alt="queHacemos" />
         </div>
       </div>
     </section>
