@@ -32,7 +32,7 @@ const CardArticles = ({ imagen, title, texto, titlePopup, textoPopup }) => {
             className={styles.capaPopUp}
           ></span>
           <div className={styles.popUp}>
-            <img src={imagen} alt="cardImage" />
+            <div className={styles.imgContainer}><img src={imagen} alt="cardImage" /></div>
             <h3>{titlePopup}</h3>
             <p>{textoPopup}</p>
             <h4 onClick={() => setIsPopupOpen(false)}>X</h4>
