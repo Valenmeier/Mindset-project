@@ -23,25 +23,28 @@ const Proyects = () => {
   );
   return (
     <section id="proyectos">
-      <TitleSection title={"Proyectos"} text={windowWidth >= 1000 ? text : ""} />
+      <TitleSection
+        title={"Proyectos"}
+        text={windowWidth >= 1000 ? text : ""}
+      />
       <section className={styles.cardContainer}>
         <CardProyects
           texto={"Dosis administradas contra el COVID-19 en Perú"}
-          imagen={"https://res.cloudinary.com/meierdeveloper/image/upload/v1687023347/Mindset/ImagenProyecto1_icpseb.webp"}
+          imagen={"/images/ImagenProyecto1.webp"}
           link={
             "https://app.powerbi.com/view?r=eyJrIjoiMzhhMGVmMjItZGM2Mi00YmU5LTg5YzEtMmI4YzZhNmEwN2JkIiwidCI6Ijg4YmE0Y2MzLTdlMDItNDFiMC1hNjFjLWUwYmNmZmRkNmMwOSJ9&pageName=ReportSection"
           }
         />
         <CardProyects
           texto={"Reporte preliminar de daños a la región por lluvias"}
-          imagen={"https://res.cloudinary.com/meierdeveloper/image/upload/v1687023348/Mindset/ImagenProyecto2_huxblj.webp"}
+          imagen={"/images/ImagenProyecto2.webp"}
           link={
             "https://app.powerbi.com/view?r=eyJrIjoiMDk2OGUyMGItMjRkYS00MDNmLTkxNzEtZTczNTNhNGI4NTFiIiwidCI6Ijg4YmE0Y2MzLTdlMDItNDFiMC1hNjFjLWUwYmNmZmRkNmMwOSJ9&pageName=ReportSection09d5ee140b7405d51892"
           }
         />
         <CardProyects
           texto={"Comportamiento de ventas por región en Perú"}
-          imagen={"https://res.cloudinary.com/meierdeveloper/image/upload/v1687023347/Mindset/ImagenProyecto3_s4dvwo.webp"}
+          imagen={"/images/ImagenProyecto3.webp"}
           link={
             "https://app.powerbi.com/view?r=eyJrIjoiM2JiMTIxYTMtNjY3MS00ZDRlLWIzODAtMTE2YzM2NTRlM2IxIiwidCI6Ijg4YmE0Y2MzLTdlMDItNDFiMC1hNjFjLWUwYmNmZmRkNmMwOSJ9&pageName=ReportSection"
           }

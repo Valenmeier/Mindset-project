@@ -1,7 +1,7 @@
 .indexSection {
   width: 100vw;
   height: 90vh;
-  background-image: url("https://res.cloudinary.com/meierdeveloper/image/upload/v1687023347/Mindset/heroImage_hxwrac.webp");
+  background-image: url("/images/heroImage.webp");
   background-position: center;
   background-size: cover;
   display: flex;

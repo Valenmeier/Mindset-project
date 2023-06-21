@@ -33,7 +33,7 @@
 }
 @media all and (min-width: 1000px) {
   .layout {
-    background-image: url("https://res.cloudinary.com/meierdeveloper/image/upload/v1687023348/Mindset/quienesSomosDesktop_b94t4a.webp");
+    background-image: url("/images/quienesSomosDesktop.webp");
     background-repeat: no-repeat;
     height: 75vh;
     background-size: contain;

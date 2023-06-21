@@ -46,7 +46,7 @@ const DesktopNavbar = () => {
       <MargenComponent>
         <nav>
           <NavLink to={"/#inicio"} className={styles.contenedorLogoInicio}>
-            <img src="https://res.cloudinary.com/meierdeveloper/image/upload/v1687023347/Mindset/logo-pc_kaclll.webp" alt="MindsetLogo" />
+            <img src="/images/logo-pc.webp" alt="MindsetLogo" />
           </NavLink>
           <div className={styles.navMenuSection}>
             <NavLink
